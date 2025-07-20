@@ -1,0 +1,31 @@
+{
+  "name": "transfusion-risk-calculator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "vue": "^3.5.13",
+    "vue-i18n": "^11.1.5",
+    "vuetify": "^3.8.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-vuetify": "^2.1.1",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^2.2.8"
+  }
+}
