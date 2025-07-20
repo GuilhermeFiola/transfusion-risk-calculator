@@ -29,6 +29,9 @@ import FooterBar from './components/FooterBar.vue'
 const probability = ref(null)
 function handleSubmit(value) {
   probability.value = value
+  setTimeout(() => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+  }, 100)
 }
 
 // i18n locale switching
